@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+    body {
+
+        background: radial-gradient(circle at top right, #f8fafc, #eff6ff);
+        @apply text-slate-900 antialiased;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+}
+
+
+.glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.product-card-hover {
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.product-card-hover:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 25px 50px -12px rgba(99, 102, 241, 0.25);
+}
+
+
+.btn-creative {
+    @apply relative overflow-hidden transition-all duration-300;
+    background: linear-gradient(45deg, #1e293b, #4338ca);
+}
+
+.btn-creative:hover {
+    @apply shadow-2xl;
+    background: linear-gradient(45deg, #4338ca, #1e293b);
+    transform: scale(1.05);
+}
