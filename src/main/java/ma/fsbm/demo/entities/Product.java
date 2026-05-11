@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import com.fasterxml.jackson.annotation.JsonProperty; // ضرورية جداً للربط مع React
+import com.fasterxml.jackson.annotation.JsonProperty; 
 
 @Entity
 @Table(name = "products")
