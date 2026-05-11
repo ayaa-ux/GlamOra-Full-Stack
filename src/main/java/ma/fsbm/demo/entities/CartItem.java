@@ -2,8 +2,8 @@ package ma.fsbm.demo.entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import lombok.NoArgsConstructor; // زيدي هادي
-import lombok.AllArgsConstructor; // وزيدي هادي
+import lombok.NoArgsConstructor; 
+import lombok.AllArgsConstructor; 
 
 @Entity
 @Data
